@@ -11,6 +11,10 @@ header.page-header {
     border-radius: 10px;
 }
 
+#ham {
+    display: none;
+}
+
 .page-header {
     display: flex;
     align-items: center;
@@ -48,22 +52,23 @@ li {
     justify-content: space-between;
     border-radius: 10px;
 }
-.flex{
+.flex {
+    flex-direction: row;
     display: flex;
     justify-content: space-between;
-  
 }
 .firstBloc {
     background-color: #ffbe45;
     padding: 1em;
     margin: 10px;
-    width: 25%;
+    width: 35%;
     justify-content: space-between;
     border-radius: 10px;
-
 }
 .img {
     width: 60%;
     height: 45%;
 }
-
+p {
+    font-size: 85%;
+}
